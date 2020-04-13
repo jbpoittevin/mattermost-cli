@@ -1,0 +1,11 @@
+[package]
+name = "mattermost-cli"
+version = "0.1.0"
+authors = ["Jean-Baptiste Poittevin <jean-baptiste.poittevin@dgfip.finances.gouv.fr>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "0.2", features = ["full"] }
+reqwest = { version = "0.10", features = ["json"] }
